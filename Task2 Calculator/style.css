@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #282f39;
+}
+
+#container {
+  position: absolute;
+  background-color: #fff;
+  width: 285px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+
+#output {
+  display: block;
+  position: relative;
+  background-image: -webkit-linear-gradient(left, #EECDA3, #EF629F);
+  width: 80%;
+  height: 80px;
+  margin: 5%;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: right;
+  user-select: auto;
+}
+
+#output1 {
+  color: gray;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#output2 {
+  color: white;
+  font-size: 28px;
+  overflow: auto;
+}
+
+#keypad {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 65%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.set {
+  display: block;
+  position: relative;
+}
+ 
+.button {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.button:active {
+  transform: scale(0.8);
+}
+
+
+#equal {
+  display: inline-block;
+  position: absolute;
+  height: 112px;
+  width: 50px;
+  border-radius: 30px;
+  margin: 7px auto 5px 12px;
+  border: none;
+  outline: none;
+  background-color: tomato;
+  color: white;
+  z-index: 2;
+}
+
+#equal:active {
+  transform: scale(0.8);
+}
+
+#operators,
+#back {
+  background-color: #03346C;
+  color: white;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
+#back {
+  padding-top: 5px;
+  padding-right: 7px;
+}
+
+#numbers {
+  background-color: pink;
+  color: black;
+}
+
+#Snumber {
+  background-color: white;
+  color: black;
+  border: 2px solid pink;
+} 
