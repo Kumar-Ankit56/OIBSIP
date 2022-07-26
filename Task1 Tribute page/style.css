@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(59, 56, 58);
+    text-align:center ;
+}
+h1{
+    font-size: 50px;
+    color:orange;
+    text-align:center;
+    text-shadow: 2px;
+    text-indent: 5px;
+    text-shadow: 3px 3px 6px #000000;
+}
+h2{
+    font-size: 30px;
+    color:orange;
+    text-align:center;
+    text-shadow: 2px;
+    text-indent: 5px;
+    text-shadow: 3px 3px 6px #000000;
+}
+h3{
+    font-size: 35px;
+    color:orange;
+    text-align:center;
+    text-shadow: 2px;
+    text-indent: 5px;
+    text-shadow: 3px 3px 6px #000000;
+}
+#img{
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    border: 2px solid wheat;
+    border: 300px;
+}
+#caption{
+    font-size:20px ;
+    text-align: center;
+    text-align: justify;
+    font-family: 'Gill Sans';
+    color: #000000;
+    width: 900px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: white;
+}
+.data{
+   background-color:#270e1d;
+    box-shadow: 10px 10px 10px 10px rgb(119, 102, 113);
+    padding: 15px 15px;
+    margin-bottom: 11px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+    width: 900px;
+    margin-left: 310px;
+    margin-right: 310px;
+    color: white;
+    
+}
+.link{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-align: justify;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+} 
+.btn{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid salmon;
+} 
+footer{
+    background-color: azure;
+    color: #000000;
+    font-size: 40px;
+}
+span{
+    color: salmon;
+}
+
+
